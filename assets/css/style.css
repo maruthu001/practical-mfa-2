@@ -1,0 +1,141 @@
+body {
+	width:1440px;
+	margin-left:5rem;
+	margin-right:10em;
+	
+	
+}
+
+header .head{
+	display:flex;
+}
+header .list{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:space-between ;
+	text-align:top-right;
+	text-decoration:none;
+	padding-left:40em;
+}
+header .list li {
+	padding-left:80px;
+	list-style:none;
+	padding:30px;
+	
+	
+}
+header .list li a{
+	
+	text-decoration:none;
+	color:grey;
+	font-family:Inter;
+}
+header .img{
+	
+	width:150px;
+	margin-top:1.5em
+}
+main .sec1{
+	display:flex;
+}
+main .sec1 section div img{
+	width:50em;
+	padding-top:2.5em;
+}
+main .sec1 section .queen{
+	display:flex;
+	margin-right:19px;
+	
+	
+}
+.txt{
+	font-family:Inter;
+	font-style:bold;
+	font-size:1.5em;
+	width:500px;
+	
+	
+
+}
+main .sec1 section .king{
+	font-family:Inter;
+	color:grey;
+	padding-right:4em;
+	width:auto;
+	font-size:17px;
+	margin:20px;
+}
+main .sec1 section .king button{
+	width: 150px;
+	height:40px;
+	font-size:17px;
+	font-family:Inter;
+	background-color:hsl(5, 85%, 63%);
+	color:white;
+	border:#e5701a;
+}
+main aside .sidebar{
+	flex-grow:7;
+	width:25em;
+	background-color:black;
+	font-family:Inter;
+	color:white;
+	padding-right:50px;
+	padding-left:50px;
+	margin-right:2em;
+	border-right: solid 20px;
+	padding-bottom:1px;
+	margin:auto;
+}
+main aside .sidebar p{
+	color: hsl(233, 8%, 79%);
+}
+main aside .sidebar h1{
+	color:orange;
+	font-size:40px;
+	font-family:Inter;
+	padding-left:40px;
+	padding-right:30px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.no1{
+	border-bottom: solid 1px;
+	border-bottom-color: grey;
+	padding-top:auto;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+}
+footer .foot{
+	display:flex;
+	flex-direction: row;
+	font-family:Inter;
+}
+
+
+footer .foot .top{
+	display:flex;
+	flex-direction: row;
+	align-content:space-evenly;
+	padding:12px;
+	margin-right:20px;
+}
+.foot img{
+	width:100px;
+	height:150px;
+	margin-right:9px;
+}
+.foot h2{
+	display:inline;
+	color:grey;
+	
+}
+.foot .top div p{
+	color:grey;
+	font-size:16px;
+}
+
+
+
